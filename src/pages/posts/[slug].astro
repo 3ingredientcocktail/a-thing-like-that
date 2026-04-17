@@ -1,0 +1,145 @@
+---
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.md$/, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{post.data.title} | Pablo’s Blog</title>
+    <style>
+      :root {
+        --bg: #faf8f4;
+        --text: #1d1d1d;
+        --muted: #666;
+        --border: #ddd6cc;
+        --accent: #7a4db3;
+        --tag-bg: #f1ece5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.75;
+      }
+
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 3rem 1.5rem 5rem;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .back {
+        display: inline-block;
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.15;
+        margin: 0 0 0.75rem;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 0.95rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        background: var(--tag-bg);
+        border-radius: 999px;
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid var(--border);
+        margin: 2rem 0;
+      }
+
+      article :global(p),
+      article :global(ul),
+      article :global(ol) {
+        margin-bottom: 1.2rem;
+      }
+
+      article :global(h2),
+      article :global(h3) {
+        margin-top: 2rem;
+        line-height: 1.25;
+      }
+
+      article :global(blockquote) {
+        margin: 1.5rem 0;
+        padding-left: 1rem;
+        border-left: 3px solid var(--border);
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <a class="back" href="/">← Home</a>
+
+      <h1>{post.data.title}</h1>
+
+      <div class="meta">
+        {post.data.date.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        })}
+      </div>
+
+      <div class="tags">
+        {post.data.tags.map((tag) => (
+          <span class="tag">#{tag}</span>
+        ))}
+      </div>
+
+      <hr />
+
+      <article>
+        <Content />
+      </article>
+    </main>
+  </body>
+</html>
