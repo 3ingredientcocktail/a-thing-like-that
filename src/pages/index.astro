@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import '../styles/blog.css';
 
 const posts = await getCollection('blog');
 
@@ -8,6 +9,10 @@ const sortedPosts = posts.sort(
 );
 
 const years = [...new Set(sortedPosts.map((post) => post.data.date.getFullYear()))];
+const tags = [...new Set(sortedPosts.flatMap((post) => post.data.tags))].sort();
+
+const base = import.meta.env.BASE_URL;
+const url = (path) => `${base}${path.replace(/^\//, '')}`;
 ---
 
 <html lang="en">
@@ -15,153 +20,69 @@ const years = [...new Set(sortedPosts.map((post) => post.data.date.getFullYear()
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pablo’s Blog</title>
-    <style>
-      :root {
-        --bg: #faf8f4;
-        --text: #1d1d1d;
-        --muted: #666;
-        --border: #ddd6cc;
-        --accent: #7a4db3;
-        --tag-bg: #f1ece5;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        background: var(--bg);
-        color: var(--text);
-        font-family: Georgia, "Times New Roman", serif;
-        line-height: 1.6;
-      }
-
-      .container {
-        max-width: 760px;
-        margin: 0 auto;
-        padding: 3rem 1.5rem 5rem;
-      }
-
-      header {
-        margin-bottom: 2.5rem;
-      }
-
-      h1 {
-        font-size: 2.4rem;
-        margin: 0 0 0.5rem;
-        line-height: 1.1;
-      }
-
-      .intro {
-        color: var(--muted);
-        font-size: 1.05rem;
-        max-width: 42rem;
-      }
-
-      .top-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        margin-top: 1.25rem;
-        font-size: 0.95rem;
-      }
-
-      .top-links a,
-      .post-title,
-      .archive-link {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
-      .top-links a:hover,
-      .post-title:hover,
-      .archive-link:hover {
-        text-decoration: underline;
-      }
-
-      .feed {
-        display: grid;
-        gap: 2rem;
-      }
-
-      article {
-        padding-top: 1.4rem;
-        border-top: 1px solid var(--border);
-      }
-
-      .post-title {
-        display: inline-block;
-        font-size: 1.55rem;
-        font-weight: bold;
-        margin-bottom: 0.25rem;
-      }
-
-      .meta {
-        color: var(--muted);
-        font-size: 0.95rem;
-        margin-bottom: 0.6rem;
-      }
-
-      .tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-      }
-
-      .tag {
-        display: inline-block;
-        padding: 0.15rem 0.5rem;
-        background: var(--tag-bg);
-        border-radius: 999px;
-        font-size: 0.85rem;
-        color: var(--muted);
-      }
-    </style>
   </head>
   <body>
     <main class="container">
-      <header>
+      <header class="site-header">
+        <p class="eyebrow">Writing, notes, and small experiments</p>
         <h1>Pablo’s Blog</h1>
         <p class="intro">
           Notes, work, half-formed thoughts, and whatever else I feel like
           writing down in public.
         </p>
 
-        <nav class="top-links" aria-label="Site links">
-          <a href="/">Home</a>
-          <a href="/archives">Archives</a>
+        <nav class="nav-row" aria-label="Site links">
+          <a href={url('/')}>Home</a>
+          <a href={url('/archives')}>Archives</a>
           {years.map((year) => (
-            <a href={`/archives#year-${year}`}>{year}</a>
+            <a href={url(`/archives#year-${year}`)}>{year}</a>
           ))}
         </nav>
       </header>
 
-      <section class="feed">
-        {sortedPosts.map((post) => (
-          <article>
-            <a
-              class="post-title"
-              href={`/posts/${post.id.replace(/\.md$/, '')}`}
-            >
-              {post.data.title}
-            </a>
+      <hr class="divider" />
 
-            <div class="meta">
-              {post.data.date.toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
-            </div>
+      <section aria-labelledby="tags-heading">
+        <h2 class="section-label" id="tags-heading">Tags</h2>
+        <div class="tag-list">
+          {tags.map((tag) => (
+            <span class="tag">#{tag}</span>
+          ))}
+        </div>
+      </section>
 
-            <div class="tags">
-              {post.data.tags.map((tag) => (
-                <span class="tag">#{tag}</span>
-              ))}
-            </div>
-          </article>
-        ))}
+      <hr class="divider" />
+
+      <section aria-labelledby="posts-heading">
+        <h2 class="section-label" id="posts-heading">Latest posts</h2>
+        <ul class="feed">
+          {sortedPosts.map((post) => (
+            <li class="post-item">
+              <article>
+                <a
+                  class="post-title"
+                  href={url(`/posts/${post.id.replace(/\.md$/, '')}`)}
+                >
+                  {post.data.title}
+                </a>
+
+                <div class="meta">
+                  {post.data.date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </div>
+
+                <div class="tag-list">
+                  {post.data.tags.map((tag) => (
+                    <span class="tag">#{tag}</span>
+                  ))}
+                </div>
+              </article>
+            </li>
+          ))}
+        </ul>
       </section>
     </main>
   </body>
