@@ -1,0 +1,136 @@
+---
+import { getCollection } from 'astro:content';
+import '../styles/blog.css';
+
+const posts = await getCollection('blog');
+
+const sortedPosts = posts.sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const groupedPosts = sortedPosts.reduce((acc, post) => {
+  const year = post.data.date.getFullYear();
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(post);
+  return acc;
+}, {});
+
+const years = [...new Set(sortedPosts.map((post) => post.data.date.getFullYear()))];
+const tags = [...new Set(sortedPosts.flatMap((post) => post.data.tags))].sort();
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = (path = '') => {
+  const cleanPath = path.replace(/^\/+/, '');
+  return cleanPath ? `${base}/${cleanPath}` : `${base}/`;
+};
+const tagSlug = (tag) => encodeURIComponent(tag);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog | Pablo’s Blog</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="page-hero">
+        <h1 class="page-title">Pablo’s blog</h1>
+        <p class="intro">
+          Notes, work, half-formed thoughts, and whatever else I feel like
+          writing down in public.
+        </p>
+
+        <nav class="nav-row page-nav" aria-label="Blog links">
+          <a href={url('')}>home</a>
+          <a href={url('blog/')}>blog</a>
+          <a
+            href="https://github.com/3ingredientcocktail"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github
+          </a>
+          <!-- TODO: Replace with the real LinkedIn URL. -->
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            linkedin
+          </a>
+          <!-- TODO: Replace with the real Instagram URL. -->
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            instagram
+          </a>
+          <!-- TODO: Replace with the real Spotify URL. -->
+          <a href="https://open.spotify.com/" target="_blank" rel="noreferrer">
+            spotify
+          </a>
+        </nav>
+      </header>
+
+      <section class="blog-meta" aria-labelledby="years-heading">
+        <h2 class="section-label" id="years-heading">Years</h2>
+        <div class="blog-link-row">
+          {years.map((year) => (
+            <a class="blog-meta-link" href={url(`blog/#${year}`)}>{year}</a>
+          ))}
+        </div>
+      </section>
+
+      <section class="blog-meta" aria-labelledby="topics-heading">
+        <h2 class="section-label" id="topics-heading">Topics</h2>
+        <div class="blog-link-row">
+          {tags.map((tag) => (
+            <a class="blog-topic-link" href={url(`tags/${tagSlug(tag)}/`)}>
+              #{tag}
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <hr class="divider" />
+
+      <section>
+        <div class="blog-year-list">
+          {years.map((year) => (
+            <section class="blog-year-section" id={year}>
+              <h3 class="blog-year-heading">{year}</h3>
+              <ul class="compact-post-list">
+                {groupedPosts[year].map((post) => (
+                  <li class="compact-post-item">
+                    <article>
+                      <div class="post-line">
+                        <a
+                          class="post-title"
+                          href={url(`posts/${post.id.replace(/\.md$/, '')}`)}
+                        >
+                          {post.data.title}
+                        </a>
+                        <span class="post-line-date">
+                          {post.data.date.toLocaleDateString('en-US', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric',
+                          })}
+                        </span>
+                      </div>
+
+                      <div class="blog-post-tags">
+                        {post.data.tags.map((tag) => (
+                          <a
+                            class="blog-topic-link"
+                            href={url(`tags/${tagSlug(tag)}/`)}
+                          >
+                            #{tag}
+                          </a>
+                        ))}
+                      </div>
+                    </article>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

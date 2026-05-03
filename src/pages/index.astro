@@ -1,94 +1,61 @@
 ---
-import { getCollection } from 'astro:content';
 import '../styles/blog.css';
-
-const posts = await getCollection('blog');
-
-const sortedPosts = posts.sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
-
-const years = [...new Set(sortedPosts.map((post) => post.data.date.getFullYear()))];
-const tags = [...new Set(sortedPosts.flatMap((post) => post.data.tags))].sort();
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = (path = '') => {
   const cleanPath = path.replace(/^\/+/, '');
   return cleanPath ? `${base}/${cleanPath}` : `${base}/`;
 };
-const tagSlug = (tag) => encodeURIComponent(tag);
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pablo’s Blog</title>
+    <title>Pablo Zamorano-Torres</title>
   </head>
   <body>
     <main class="container">
-      <header class="site-header">
-        <p class="eyebrow">Writing, notes, and small experiments</p>
-        <h1>Pablo’s Blog</h1>
-        <p class="intro">
-          Notes, work, half-formed thoughts, and whatever else I feel like
-          writing down in public.
+      <header class="page-hero">
+        <h1 class="page-title">
+          <span class="title-line">Pablo</span>
+          <span class="title-line">Zamorano‑Torres</span>
+        </h1>
+        <p class="home-subtitle">
+          A short bio placeholder about what I make, write, and care about.
         </p>
 
-        <nav class="nav-row" aria-label="Site links">
-          <a href={url('/')}>Home</a>
-          <a href={url('/archives')}>Archives</a>
-          {years.map((year) => (
-            <a href={url(`/archives/#${year}`)}>{year}</a>
-          ))}
+        <nav class="nav-row page-nav" aria-label="Site links">
+          <a href={url('')}>home</a>
+          <a href={url('blog/')}>blog</a>
+          <a
+            href="https://github.com/3ingredientcocktail"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github
+          </a>
+          <!-- TODO: Replace with the real LinkedIn URL. -->
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            linkedin
+          </a>
+          <!-- TODO: Replace with the real Instagram URL. -->
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            instagram
+          </a>
+          <!-- TODO: Replace with the real Spotify URL. -->
+          <a href="https://open.spotify.com/" target="_blank" rel="noreferrer">
+            spotify
+          </a>
         </nav>
       </header>
 
-      <hr class="divider" />
-
-      <section aria-labelledby="tags-heading">
-        <h2 class="section-label" id="tags-heading">Tags</h2>
-        <div class="tag-list">
-          {tags.map((tag) => (
-            <a class="tag" href={url(`/tags/${tagSlug(tag)}/`)}>#{tag}</a>
-          ))}
-        </div>
-      </section>
-
-      <hr class="divider" />
-
-      <section aria-labelledby="posts-heading">
-        <h2 class="section-label" id="posts-heading">Latest posts</h2>
-        <ul class="feed">
-          {sortedPosts.map((post) => (
-            <li class="post-item">
-              <article>
-                <a
-                  class="post-title"
-                  href={url(`/posts/${post.id.replace(/\.md$/, '')}`)}
-                >
-                  {post.data.title}
-                </a>
-
-                <div class="meta">
-                  {post.data.date.toLocaleDateString('en-US', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
-                </div>
-
-                <div class="tag-list">
-                  {post.data.tags.map((tag) => (
-                    <a class="tag" href={url(`/tags/${tagSlug(tag)}/`)}>
-                      #{tag}
-                    </a>
-                  ))}
-                </div>
-              </article>
-            </li>
-          ))}
-        </ul>
+      <section class="home-blurb">
+        <p>
+          This is a short placeholder blurb for the homepage. I’ll use this
+          space for a personal note, a few current interests, or a tiny
+          snapshot of what I’m working on.
+        </p>
       </section>
     </main>
   </body>

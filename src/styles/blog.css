@@ -60,6 +60,13 @@ a:focus-visible {
   margin-bottom: 2.15rem;
 }
 
+.page-hero {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0 2.4rem;
+  min-height: 15.2rem;
+}
+
 .eyebrow {
   color: var(--muted);
   font-size: 0.92rem;
@@ -80,8 +87,19 @@ h1 {
   margin: 0 0 0.7rem;
 }
 
+.page-title {
+  font-size: clamp(2.65rem, 8vw, 3.8rem);
+  line-height: 0.96;
+  margin-bottom: 1rem;
+}
+
+.title-line {
+  display: block;
+}
+
 .intro,
-.lede {
+.lede,
+.home-subtitle {
   color: var(--muted);
   font-size: 1.03rem;
   line-height: 1.65;
@@ -100,6 +118,15 @@ h1 {
   margin-top: 1.35rem;
 }
 
+.page-nav {
+  margin-bottom: 0;
+  margin-top: 1.55rem;
+}
+
+.page-hero .page-nav {
+  margin-top: auto;
+}
+
 .nav-row a {
   font-weight: 700;
 }
@@ -108,6 +135,45 @@ h1 {
   border: 0;
   border-top: 1px solid var(--border-soft);
   margin: 1.85rem 0;
+}
+
+.blog-meta {
+  border-top: 1px solid var(--border-soft);
+  padding-top: 1rem;
+}
+
+.blog-meta + .blog-meta {
+  margin-top: 1.15rem;
+}
+
+.blog-link-row,
+.blog-post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+}
+
+.blog-meta-link,
+.blog-topic-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration-color: rgba(154, 63, 134, 0.38);
+}
+
+.blog-topic-link {
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.home-blurb {
+  border-top: 1px solid var(--border-soft);
+  margin-top: 2.2rem;
+  max-width: 36rem;
+  padding-top: 1.35rem;
+}
+
+.home-blurb p {
+  margin: 0;
 }
 
 .section-label {
@@ -164,6 +230,47 @@ h1 {
   font-size: 1.28rem;
   font-weight: 700;
   line-height: 1.25;
+}
+
+.post-line {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.65rem;
+}
+
+.post-line-date {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-style: italic;
+}
+
+.blog-year-list {
+  display: grid;
+  gap: 2.35rem;
+}
+
+.blog-year-section {
+  scroll-margin-top: 1.5rem;
+}
+
+.blog-year-heading {
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 2rem;
+  margin: 0 0 1.05rem;
+  padding-bottom: 0.45rem;
+}
+
+.compact-post-list {
+  display: grid;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.compact-post-item {
+  padding-top: 0;
 }
 
 .meta,
@@ -258,7 +365,20 @@ h1 {
     margin-bottom: 1.8rem;
   }
 
+  .page-hero {
+    margin-top: 3rem;
+    min-height: 14.3rem;
+  }
+
   .divider {
     margin: 1.55rem 0;
+  }
+
+  .blog-year-list {
+    gap: 2rem;
+  }
+
+  .blog-year-heading {
+    font-size: 1.75rem;
   }
 }
