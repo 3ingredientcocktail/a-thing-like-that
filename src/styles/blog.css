@@ -1,11 +1,12 @@
 :root {
-  --bg: #fffaf1;
-  --text: #252018;
-  --muted: #6b6258;
-  --border: #ded2bf;
-  --accent: #7b3f98;
-  --accent-hover: #4f2168;
-  --tag-bg: #f4eadb;
+  --bg: #fff8ec;
+  --text: #30261c;
+  --muted: #736758;
+  --border: #e4d3bd;
+  --accent: #8d4a9f;
+  --accent-hover: #633074;
+  --tag-bg: #f7ead7;
+  --tag-hover: #f1ddc2;
 }
 
 * {
@@ -19,7 +20,7 @@ html {
 body {
   margin: 0;
   background:
-    linear-gradient(90deg, rgba(123, 63, 152, 0.07), transparent 18rem),
+    linear-gradient(90deg, rgba(141, 74, 159, 0.08), transparent 17rem),
     var(--bg);
   color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
@@ -37,9 +38,9 @@ a:hover {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 3rem 1.5rem 5rem;
+  padding: 3.25rem 1.5rem 5rem;
 }
 
 .site-header {
@@ -59,7 +60,7 @@ h3 {
 }
 
 h1 {
-  font-size: 2.45rem;
+  font-size: 2.5rem;
   margin: 0 0 0.6rem;
 }
 
@@ -89,7 +90,7 @@ h1 {
 .divider {
   border: 0;
   border-top: 1px solid var(--border);
-  margin: 1.8rem 0;
+  margin: 1.65rem 0;
 }
 
 .section-label {
@@ -108,19 +109,25 @@ h1 {
 
 .tag {
   background: var(--tag-bg);
-  border: 1px solid rgba(123, 63, 152, 0.16);
+  border: 1px solid rgba(141, 74, 159, 0.16);
   border-radius: 999px;
   color: var(--muted);
   display: inline-block;
   font-size: 0.86rem;
   line-height: 1.2;
-  padding: 0.22rem 0.55rem;
+  padding: 0.24rem 0.58rem;
+  text-decoration: none;
+}
+
+.tag:hover {
+  background: var(--tag-hover);
+  color: var(--accent-hover);
 }
 
 .feed,
 .archive-list {
   display: grid;
-  gap: 1.35rem;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
 }
@@ -131,7 +138,7 @@ h1 {
 
 .post-item {
   border-top: 1px solid var(--border);
-  padding-top: 1.15rem;
+  padding-top: 1.05rem;
 }
 
 .post-title {
@@ -159,7 +166,7 @@ h1 {
 
 .year-block {
   border-top: 1px solid var(--border);
-  margin-top: 2.1rem;
+  margin-top: 1.9rem;
   padding-top: 1rem;
 }
 
@@ -210,7 +217,7 @@ h1 {
 
 @media (max-width: 520px) {
   .container {
-    padding: 2rem 1rem 4rem;
+    padding: 2.2rem 1rem 4rem;
   }
 
   h1 {

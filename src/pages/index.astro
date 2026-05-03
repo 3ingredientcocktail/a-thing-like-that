@@ -13,6 +13,7 @@ const tags = [...new Set(sortedPosts.flatMap((post) => post.data.tags))].sort();
 
 const base = import.meta.env.BASE_URL;
 const url = (path) => `${base}${path.replace(/^\//, '')}`;
+const tagSlug = (tag) => encodeURIComponent(tag);
 ---
 
 <html lang="en">
@@ -46,7 +47,7 @@ const url = (path) => `${base}${path.replace(/^\//, '')}`;
         <h2 class="section-label" id="tags-heading">Tags</h2>
         <div class="tag-list">
           {tags.map((tag) => (
-            <span class="tag">#{tag}</span>
+            <a class="tag" href={url(`/tags/${tagSlug(tag)}/`)}>#{tag}</a>
           ))}
         </div>
       </section>
@@ -76,7 +77,9 @@ const url = (path) => `${base}${path.replace(/^\//, '')}`;
 
                 <div class="tag-list">
                   {post.data.tags.map((tag) => (
-                    <span class="tag">#{tag}</span>
+                    <a class="tag" href={url(`/tags/${tagSlug(tag)}/`)}>
+                      #{tag}
+                    </a>
                   ))}
                 </div>
               </article>
