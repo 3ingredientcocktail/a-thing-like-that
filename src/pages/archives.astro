@@ -4,8 +4,11 @@ import '../styles/blog.css';
 
 const posts = await getCollection('blog');
 
-const base = import.meta.env.BASE_URL;
-const url = (path) => `${base}${path.replace(/^\//, '')}`;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = (path = '') => {
+  const cleanPath = path.replace(/^\/+/, '');
+  return cleanPath ? `${base}/${cleanPath}` : `${base}/`;
+};
 
 const sortedPosts = posts.sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -37,7 +40,7 @@ const years = Object.keys(groupedPosts).sort((a, b) => Number(b) - Number(a));
       </header>
 
       {years.map((year) => (
-        <section class="year-block" id={`year-${year}`}>
+        <section class="year-block" id={year}>
           <h2 class="year-title">{year}</h2>
           <ul class="archive-list">
             {groupedPosts[year].map((post) => (
