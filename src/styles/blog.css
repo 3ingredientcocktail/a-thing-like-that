@@ -150,7 +150,6 @@ h1 {
 
 .blog-meta {
   border-bottom: 1px solid var(--border-soft);
-  border-top: 1px solid var(--border-soft);
 }
 
 .blog-meta-row {
@@ -160,10 +159,6 @@ h1 {
   grid-template-columns: 7rem 1fr;
   min-height: 2.65rem;
   padding: 0.35rem 0;
-}
-
-.blog-meta-row + .blog-meta-row {
-  border-top: 1px solid var(--border-soft);
 }
 
 .blog-meta-label {
@@ -287,7 +282,7 @@ h1 {
 .blog-year-list {
   display: grid;
   gap: 1.65rem;
-  margin-top: 1.15rem;
+  margin-top: 1.35rem;
 }
 
 .blog-year-section {
