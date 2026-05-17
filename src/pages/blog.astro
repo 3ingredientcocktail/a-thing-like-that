@@ -75,27 +75,27 @@ const tagSlug = (tag) => encodeURIComponent(tag);
         </nav>
       </header>
 
-      <section class="blog-meta blog-meta-row" aria-labelledby="years-heading">
-        <h2 class="section-label" id="years-heading">Years</h2>
-        <div class="blog-link-row">
-          {years.map((year) => (
-            <a class="blog-meta-link" href={url(`blog/#${year}`)}>{year}</a>
-          ))}
+      <section class="blog-meta" aria-label="Blog filters">
+        <div class="blog-meta-row">
+          <div class="blog-meta-label">Years</div>
+          <div class="blog-meta-links">
+            {years.map((year) => (
+              <a class="blog-meta-link" href={url(`blog/#${year}`)}>{year}</a>
+            ))}
+          </div>
+        </div>
+
+        <div class="blog-meta-row">
+          <div class="blog-meta-label">Topics</div>
+          <div class="blog-meta-links">
+            {tags.map((tag) => (
+              <a class="blog-topic-link" href={url(`tags/${tagSlug(tag)}/`)}>
+                #{tag}
+              </a>
+            ))}
+          </div>
         </div>
       </section>
-
-      <section class="blog-meta blog-meta-row" aria-labelledby="topics-heading">
-        <h2 class="section-label" id="topics-heading">Topics</h2>
-        <div class="blog-link-row">
-          {tags.map((tag) => (
-            <a class="blog-topic-link" href={url(`tags/${tagSlug(tag)}/`)}>
-              #{tag}
-            </a>
-          ))}
-        </div>
-      </section>
-
-      <hr class="divider" />
 
       <section>
         <div class="blog-year-list">
