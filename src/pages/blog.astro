@@ -51,22 +51,31 @@ const tagSlug = (tag) => encodeURIComponent(tag);
           >
             github
           </a>
-          <!-- TODO: Replace with the real LinkedIn URL. -->
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/zamoranop/"
+            target="_blank"
+            rel="noreferrer"
+          >
             linkedin
           </a>
-          <!-- TODO: Replace with the real Instagram URL. -->
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/3ingredientcocktail/"
+            target="_blank"
+            rel="noreferrer"
+          >
             instagram
           </a>
-          <!-- TODO: Replace with the real Spotify URL. -->
-          <a href="https://open.spotify.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://open.spotify.com/user/zamoranop"
+            target="_blank"
+            rel="noreferrer"
+          >
             spotify
           </a>
         </nav>
       </header>
 
-      <section class="blog-meta" aria-labelledby="years-heading">
+      <section class="blog-meta blog-meta-row" aria-labelledby="years-heading">
         <h2 class="section-label" id="years-heading">Years</h2>
         <div class="blog-link-row">
           {years.map((year) => (
@@ -75,7 +84,7 @@ const tagSlug = (tag) => encodeURIComponent(tag);
         </div>
       </section>
 
-      <section class="blog-meta" aria-labelledby="topics-heading">
+      <section class="blog-meta blog-meta-row" aria-labelledby="topics-heading">
         <h2 class="section-label" id="topics-heading">Topics</h2>
         <div class="blog-link-row">
           {tags.map((tag) => (
