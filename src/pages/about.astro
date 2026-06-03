@@ -1,0 +1,71 @@
+---
+import '../styles/blog.css';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = (path = '') => {
+  const cleanPath = path.replace(/^\/+/, '');
+  return cleanPath ? `${base}/${cleanPath}` : `${base}/`;
+};
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Pablo Zamorano-Torres</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="page-hero">
+        <h1 class="page-title">
+          <span class="title-line">Pablo</span>
+          <span class="title-line">Zamorano‑Torres</span>
+        </h1>
+        <p class="home-subtitle">
+          A short bio placeholder about what I make, write, and care about.
+        </p>
+
+        <nav class="nav-row page-nav" aria-label="Site links">
+          <a href={url('')}>blog</a>
+          <a href={url('about/')} aria-current="page">about</a>
+          <a
+            href="https://github.com/3ingredientcocktail"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/zamoranop/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            linkedin
+          </a>
+          <a
+            href="https://www.instagram.com/3ingredientcocktail/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            instagram
+          </a>
+          <a
+            href="https://open.spotify.com/user/zamoranop"
+            target="_blank"
+            rel="noreferrer"
+          >
+            spotify
+          </a>
+        </nav>
+      </header>
+
+      <section class="home-blurb">
+        <p>
+          This is a short placeholder blurb for the about page. I’ll use this
+          space for a personal note, a few current interests, or a tiny
+          snapshot of what I’m working on.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

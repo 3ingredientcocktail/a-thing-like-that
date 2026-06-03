@@ -32,7 +32,39 @@ const years = Object.keys(groupedPosts).sort((a, b) => Number(b) - Number(a));
   </head>
   <body>
     <main class="container">
-      <a class="back" href={url('/')}>← Home</a>
+      <nav class="nav-row page-nav" aria-label="Site links">
+        <a href={url('')}>blog</a>
+        <a href={url('about/')}>about</a>
+        <a
+          href="https://github.com/3ingredientcocktail"
+          target="_blank"
+          rel="noreferrer"
+        >
+          github
+        </a>
+        <a
+          href="https://www.linkedin.com/in/zamoranop/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          linkedin
+        </a>
+        <a
+          href="https://www.instagram.com/3ingredientcocktail/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          instagram
+        </a>
+        <a
+          href="https://open.spotify.com/user/zamoranop"
+          target="_blank"
+          rel="noreferrer"
+        >
+          spotify
+        </a>
+      </nav>
+
       <header class="site-header">
         <p class="eyebrow">Everything by year</p>
         <h1>Archives</h1>
