@@ -6,18 +6,18 @@ tags: ["journal", "sf"]
 
 My first time seeing Oliver Tree was at Outside Lands in 2017. He played the Panhandle stage for a mid-afternoon crowd of maybe a thousand people.
 
-He was briefly on my radar because I’d heard “When I’m Down” at my friend Jessica’s apartment while we were getting ready for the festival. Once he rode onto the stage on his scooter and began circling around, I decided to stay for the whole set. The guy was weird, irreverent, funny, and strangely genuine. 
+I’d heard “When I’m Down” at my friend Jessica’s apartment as we were getting ready for the festival, so he was on my radar. I decided to stay for the entire set after he rode a scooter out and circled the stage several times. The guy was weird, irreverent, funny, and strangely genuine. 
 
 His music would go on to explore themes of being an outcast, nonconformity, and resilience. I related to it, and I felt both lucky and proud as I watched his career blow up over the following decade.
 
-Oliver felt like a contemporary - a thread running alongside my own adulthood. The future seemed open for both of us. Then his came to an abrupt end.
+Being two years younger than me, Oliver felt like a contemporary - a thread running alongside my own adulthood. The future seemed open for both of us, yet that changed in an instant.
 
-Oliver Tree died yesterday in a freak helicopter accident. Two helicopters collided in midair over Rio de Janeiro, killing all six people aboard. Awful.
+Oliver Tree died yesterday (June 14, 2026) in a freak helicopter accident. Two helicopters collided in midair over Rio de Janeiro, killing all six people aboard. Just awful. I'm gutted.
 
-His music became attached to moments in my life. One of my favorites involved sharing the song “Out of Ordinary” with my good friend Katie’s preteen son. I suspected he would like it.
+Oliver's music became attached to moments in my life. One of my favorites involved sharing the song “Out of Ordinary” with my friend Katie’s preteen son, Jake. I had a hunch he would dig it.
 
-Katie hesitated at first. She had been encouraging him to feel included among his peers and worried that a song celebrating being “out of the ordinary” might reinforce the alienation he was already feeling. But she honored my request and played it for him.
+Katie hesitated at first. She had been encouraging Jake to feel included among his peers and worried that a song celebrating being “out of ordinary” might reinforce the alienation he was already feeling. I left it at that: her kid, her call. 
 
-He loved it. Being out of the ordinary can be rad.
+Next time I saw her she confessed that Jake had loved the song and played it on repeat. Being out of ordinary can be rad.
 
 Thanks Oliver. RIP.
