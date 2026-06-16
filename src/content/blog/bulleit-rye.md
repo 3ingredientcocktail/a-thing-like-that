@@ -1,7 +1,7 @@
 ---
 title: "Bulleit Rye"
 date: 2026-05-20
-tags: ["sf", "memory"]
+tags: ["sf", "journal"]
 ---
 
 I want to share a story that I was reminded of as I scrolled through Facebook. 

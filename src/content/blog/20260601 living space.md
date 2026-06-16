@@ -1,5 +1,5 @@
 ---
-title: "20260601"
+title: "Living space"
 date: 2026-06-01
 tags: ["journal"]
 ---
