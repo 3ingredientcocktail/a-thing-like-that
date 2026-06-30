@@ -393,6 +393,40 @@ h1 {
   padding-left: 1.1rem;
 }
 
+.prose .image-row {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.prose .image-row-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prose .image-row-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.prose .image-row figure {
+  align-self: start;
+  margin: 0;
+}
+
+.prose .image-row img {
+  border-radius: 0.35rem;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.prose .image-row figcaption {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin-top: 0.45rem;
+}
+
 @media (max-width: 520px) {
   html {
     font-size: 17px;
@@ -428,5 +462,11 @@ h1 {
 
   .blog-year-heading {
     font-size: 1.35rem;
+  }
+
+  .prose .image-row,
+  .prose .image-row-2,
+  .prose .image-row-3 {
+    grid-template-columns: 1fr;
   }
 }
