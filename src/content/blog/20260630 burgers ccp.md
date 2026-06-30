@@ -27,10 +27,10 @@ Nearly all burger names have something to do with California or skating, e.g. Po
 
 The fries taste just like In-N-Out fries, they're not oily, and have an old-school potato flavor with a crunchy texture. And here's the proof of the In-N-Out connection: they offer Animal Style Fries. 
 
-**Burger:** 8
-**Fries:** 8
-**Vibe:** 9
-**Price:** <$10.000
+- **Burger:** 8
+- **Fries:** 8
+- **Vibe:** 9
+- **Price:** <$10.000
 
 The knocks: It's not consistent so I had to lower the rating. Both the fries and burger suffer from being inconsistent. More than once I've gone to order and they're missing ingredients, e.g. onion rings or bacon. One of those times they didn't even inform me my burger would come without a bacon. Sometimes the bread is smushed. The fries are hit or miss, sometimes they nail that In-N-Out feel, other times they're soggy. 
 
@@ -67,10 +67,10 @@ The fries were fat, a smidge underdone, but overall delicious. Out of all the fr
 
 Bonus point to this place for providing a bottle of ketchup and mustard to use at your own discretion. 
 
-**Burger:** 8
-**Fries:** 7
-**Vibe:** 7
-**Price:** ~$15.000
+- **Burger:** 8
+- **Fries:** 7
+- **Vibe:** 7
+- **Price:** ~$15.000
 
 A super popular place. It seems to be a hit among families and older clientele. Unsurprising given it's faithfully Chilean approach to creating a burger.
 
@@ -97,10 +97,10 @@ Right away I suspected I was running into a small business owner that had decide
 
 I have nothing of note to say about the burger or fries, everything was adequate and forgettable. To their credit, I do think the waitress asked me how I wanted my burger cooked. I suppose the place isn't bad but you're paying a near premium price for a mere decent burger. The bun doesn't have sesame seeds, the bacon isn't crispy enough, the meat isn't caramelized. Perhaps I could have let all this slide but then I asked for ketchup and they bring it out in a tiny little cup. Stinginess with ketchup at a burger establishment is something I'll never understand.
 
-**Burger:** 6
-**Fries:** 5
-**Vibe:** 5
-**Price:** ~$13.000
+- **Burger:** 6
+- **Fries:** 5
+- **Vibe:** 5
+- **Price:** ~$13.000
 
 It's called Tropi Burger but there was nothing tropical about the decor or food. I guess it has to do with the trope amongst penquistas that the city has become "Tropi Conce" due to the fierce climate changes that can happen in a single day (cold morning, hot and muggy midday, rainy evening) but what does that have to do with a burger? Non sequitur if you ask me.
 
@@ -125,10 +125,10 @@ The burger definitely had a "premier" feeling. I could tell I was in a place tha
 
 The fries were decent but nothing out of this world. Standard stuff. Look at the photo and tell me that doesn't ring true.
 
-**Burger:** 7
-**Fries:** 7
-**Vibe:** 8
-**Price:** ~$16.000
+- **Burger:** 7
+- **Fries:** 7
+- **Vibe:** 8
+- **Price:** ~$16.000
 
 Brownie points for giving me a bottle of ketchup and mustard. To give Premiere Burgers their due, I could see myself returning and giving another burger a try. That's largely due not to the food but that the place had good energy, lots of happy couple/families on dates in a nicely decorated place just wanting to share meal over a burger. Is the bread not an authentic American bun? Yeah but I'm learning that that leaves me in the minority because guess what, most people eating there are Chilean and love their bread. 
 
@@ -153,10 +153,10 @@ I was pleasantly surprised. This was a solid burger. The patty is by far the mos
 
 The fries were tremendous. Fat but crispy, salted to perfection. I found myself turning to them when I needed a break from the burger's meat assault. 
 
-**Burger:** 8
-**Fries:** 8
-**Vibe:** 8
-**Price:** ~$15.000
+- **Burger:** 8
+- **Fries:** 8
+- **Vibe:** 8
+- **Price:** ~$15.000
 
 So, despite their false advertising about being a sports bar (come clean and admit it's a soccer bar, bro), I have to commend Burger Bar on making a respectable burger. Bravo. 
 
@@ -177,10 +177,10 @@ Mea culpa for ordering a cheddar burger with bacon and then finding it overly ch
 
 The fries were incredible. Perhaps the best fries I tried here in Conce BUT also the smallest portion of fries out of anyone. I'm reminded of the Rolling Stones' You Can't Always Get What You Want. 
 
-**Burger:** 6
-**Fries:** 9
-**Vibe:** 9
-**Price:** ~$17.000
+- **Burger:** 6
+- **Fries:** 9
+- **Vibe:** 9
+- **Price:** ~$17.000
 
 Love the service and vibe. It's definitely a place people come to hang out and shoot the shit. And shoutouts to giving burger customers a full bottle of ketchup/mustard (Heinz bottles but I'm pretty sure they refill it with a knockoff, that's the norm here). 
 
