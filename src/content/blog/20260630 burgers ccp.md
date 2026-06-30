@@ -137,11 +137,11 @@ Brownie points for giving me a bottle of ketchup and mustard. To give Premiere B
 
 <div class="image-row image-row-2">
   <figure>
-    <img src="/images/burger-concepcion/fattypatty1.jpeg" alt="Burger Bar 1" />
+    <img src="/images/burger-concepcion/burgerbar1.jpeg" alt="Burger Bar 1" />
   </figure>
 
   <figure>
-    <img src="/images/burger-concepcion/fattypatty2.jpeg" alt="Burger Bar 2" />
+    <img src="/images/burger-concepcion/burgerbar2.jpeg" alt="Burger Bar 2" />
   </figure>
 </div>
 
