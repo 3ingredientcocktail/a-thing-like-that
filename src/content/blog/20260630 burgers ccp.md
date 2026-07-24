@@ -6,7 +6,7 @@ tags: ["ccp"]
 
 I figured a Conce burger guide could be a tasty way to explore more of this city. What triggered the idea was a new burger joint on La Diagonal called Fatty Patty. It's obvious to anyone from California that this joint is inspired by In-N-Out and west coast culture. So, without further ado, see below for my take on a handful of burger restaurants from Concepción.
 
-Disclaimer: this isn't some exhaustive or painstaking ranking, it was done for my own amusement. I ordered whichever burger appetized me at the time but I did try to keep them fairly standard, and paired it with fries and a coke at every location.
+Disclaimer: This is not an exhaustive or painstaking ranking; it was done for my own amusement. I ordered whichever burger appetized me at the time but I did try to keep them fairly standard, and paired it with fries and a coke at every location.
 
 ## Fatty Patty
 📍 Diag. Pedro Aguirre Cerda 1254, Concepción
@@ -21,14 +21,14 @@ Disclaimer: this isn't some exhaustive or painstaking ranking, it was done for m
   </figure>
 </div>
 
-So, Fatty Patty opened on La Diagonal a few months ago and I was hooked from the first bite. In no small part because they have a Burger of the Day option for $5,000 CLP. Also, I checked out their Instagram and the owners sure seem to know what they're doing: they had a viral marketing campaign where they walked around the UdeC campus and gave a free burger to students willing to scream into a microphone for 10 seconds. Campaign worked so well that security guards on campus started radioing each other to check on the disturbance. 
+So, Fatty Patty opened on La Diagonal a few months ago and I was hooked from the first bite. In no small part because they have a Burger of the Day option for $5.000 CLP. Also, I checked out their Instagram and the management sure seem to know what they're doing: they did marketing campaign where they walked around the UdeC campus and gave a free burger to students willing to scream into a microphone for 10 seconds. Campaign worked so well that security guards on campus started radioing each other to check on the disturbance. 
 
-Nearly all burger names have something to do with California or skating, e.g. Pop Shove it, Rodeo Flip, Santa Monica Sunset, California Love. The burger is incredibly tasty, they heat up the griddle enough for the crust to caramelize. Look up "Maillard reaction" for further info on this. Also, it's the only place with American-like crispy bacon.
+Nearly all burger names have something to do with California or skating, e.g. Pop Shove it, Rodeo Flip, Santa Monica Sunset, California Love. The burger is incredibly tasty, they heat up the griddle enough for the crust to caramelize. Look up "Maillard reaction" for further info on this caramelization. Also, it's the only place with American-like crispy bacon.
 
-The fries taste just like In-N-Out fries, they're not oily, and have an old-school potato flavor with a crunchy texture. And here's the proof of the In-N-Out connection: they offer Animal Style Fries. 
+The fries taste just like In-N-Out fries, they're not oily, and have an old-school potato flavor with a crunchy texture. Here's the proof of the In-N-Out connection: they offer Animal Style Fries. 
 
-- **Burger:** 8
-- **Fries:** 8
+- **Burger:** 9
+- **Fries:** 9
 - **Vibe:** 9
 - **Price:** <$10.000
 
@@ -36,13 +36,15 @@ The knocks: It's not consistent so I had to lower the rating. Both the fries and
 
 It's still my go-to burger place given its burger of the day deal and proximity to UdeC, and I've recommended it to plenty, but I have to admit it's not a sure thing. That being said, when it does hit, you're getting a hell of a burger for the best price in Conce. However, be prepared to eat standing up or sitting somewhere random around La Diagonal, there's only a couple of tables out front and it's often swarmed by UdeC students. 
 
-I'll end with a testimonial from a coworker who immediately craved more Fatty Patty after having the Rodeo Flip:
+I'll end with a testimonial from a coworker who went so far as to call Fatty Patty addictive:
 
 <div class="image-row image-row-1">
   <figure>
     <img src="/images/burger-concepcion/fattypatty-testimonial.jpeg" alt="Fatty Patty testimonial" />
   </figure>
 </div>
+
+**UPDATE (July 24, 2026): I've up the burger and fries rating from 8 to 9 after seeing consistent quality and no missing ingredients. It would seem FP has ironed out the kinks! That being said, they charge for sauces. I've started bringing my own bottle of ketchup with me.**
 
 ## Rich Hamburguesas
 📍 Colo Colo 325, Concepción
@@ -67,7 +69,7 @@ The fries were fat, a smidge underdone, but overall delicious. Out of all the fr
 
 Bonus point to this place for providing a bottle of ketchup and mustard to use at your own discretion. 
 
-- **Burger:** 8
+- **Burger:** 5
 - **Fries:** 7
 - **Vibe:** 7
 - **Price:** ~$15.000
@@ -76,6 +78,7 @@ A super popular place. It seems to be a hit among families and older clientele. 
 
 I'll add that they do offer milkshakes like a true burger establishment, and for the low price of $3.000 I couldn't pass it up. I'm happy to share that they use real ice cream and milk but the milkshake (for whatever reason, I'm not a shake expert) tasted casero too. As if I had taken a spoon and stirred my own chocolate ice cream. It didn't have that rich milkshake texture that I'm accustomed to, it was more like slushy ice cream, if you get my drift. And yeah, it's only $3.000 but it's a small paper cup portion. 
 
+**UPDATE (July 24, 2026): I lowered the burger rating from 8 to 5. That may seem harsh but I suspect this place has a tendency to skimp on the beef. The second time around trying this place I got a 1cm thick patty. Disgraceful.**
 
 ## Tropi Burger
 📍 Lautaro 598, Concepción
@@ -91,9 +94,9 @@ I'll add that they do offer milkshakes like a true burger establishment, and for
 </div>
 
 
-A place that (only) one coworker mentioned to me at some point but it otherwise hadn't stood out to me. That being said, part of writing a burger guide is trying new places and this restaurant is located along my commute to and from work, so I figured what the hell. 
+A place that a coworker mentioned to me at some point but it otherwise hadn't stood out to me. However, part of writing a burger guide is trying new places and this restaurant is located along my commute to work, so I figured why not. 
 
-Right away I suspected I was running into a small business owner that had decided to venture into burgers. Clearly a house that had been remodeled to be a restaurant, it had a makeshift bar at one end with only one or two beers on tap. A single 40" flat screen (weak) on a wall playing whatever soccer match was on at the time. The waitress was decent enough but, if I had to guess off her body language, counting the minutes till she could punch out. 
+Right away I suspected I was running into a small business owner that had decided to venture into burgers. Clearly a house that had been remodeled to be a restaurant, it had a makeshift bar at one end with only one or two beers on tap. A single 40" flat screen on a wall playing a soccer match. The waitress was decent enough but, if I had to guess off her body language, counting the minutes till she could punch out.  
 
 I have nothing of note to say about the burger or fries, everything was adequate and forgettable. To their credit, I do think the waitress asked me how I wanted my burger cooked. I suppose the place isn't bad but you're paying a near premium price for a mere decent burger. The bun doesn't have sesame seeds, the bacon isn't crispy enough, the meat isn't caramelized. Perhaps I could have let all this slide but then I asked for ketchup and they bring it out in a tiny little cup. Stinginess with ketchup at a burger establishment is something I'll never understand.
 
@@ -119,7 +122,7 @@ It's called Tropi Burger but there was nothing tropical about the decor or food.
 
 The surprise burger spot. I had no idea this place existed until a coworker suggested it because he works at the bookstore next door. Yes, work as an English teacher means a lot of office talk. So, I looked the place up and it showed a lot of promise, highly reviewed and some great burger photos. I ended up swinging by after a late night teaching English to employees from an engineering consulting firm. 
 
-Out of all the true burger joints, this one had the best vibe. It had this lower key TGIF vibe but it was tastefully done. You could tell this is a date night place, I was surrounded by young couples having a night out. Love it. 
+Out of all the true burger joints, this one had the best vibe. It had this lower key TGIF vibe but it was tastefully done. You could tell this is a date night place, I was surrounded by young couples having a night out. Love that. 
 
 The burger definitely had a "premier" feeling. I could tell I was in a place that took pride in their burger. But it kind fell flat for me. This was another place that doesn't use a standard burger bun, they use a Chilean type of bread. I ordered a burger with BBQ on it and they overdid the BBQ but that's a personal taste thing. I splurged and added onion rings to my burger but they weren't to my liking, the onion inside was still raw and tasted oniony, I like it when they're crispy. Again, to each their own. 
 
@@ -130,7 +133,7 @@ The fries were decent but nothing out of this world. Standard stuff. Look at the
 - **Vibe:** 8
 - **Price:** ~$16.000
 
-Brownie points for giving me a bottle of ketchup and mustard. To give Premiere Burgers their due, I could see myself returning and giving another burger a try. That's largely due not to the food but that the place had good energy, lots of happy couple/families on dates in a nicely decorated place just wanting to share meal over a burger. Is the bread not an authentic American bun? Yeah but I'm learning that that leaves me in the minority because guess what, most people eating there are Chilean and love their bread. 
+Brownie points for giving me a bottle of ketchup and mustard. 
 
 ## Burger Bar
 📍 Diag. Pedro Aguirre Cerda 1248, Concepción
@@ -147,7 +150,7 @@ Brownie points for giving me a bottle of ketchup and mustard. To give Premiere B
 
 Now we're moving into the territory of restaurants that serve more than burgers. I had my qualms about reviewing non-burger exclusive restaurants but with a name like Burger Bar how could I refuse? 
 
-Burger Bar presents itself as a sports/music pub which I find slightly misleading. Their website explicitly claims that they show NBA games (with a photo of Lebron even) but I showed up wanting to watch a Conference finals game (Spurs vs Thunder) and they had no idea what I was talking about. When they tried to put the game on for me, it turns out their Disney+/ESPN subscription didn't include the Conference finals. Sigh. To be fair to them, I went to a handful of other bars around downtown and no one was showing the game. C'est la vie in Concepción. Anyhow, onto the burger. 
+Burger Bar presents itself as a sports/music pub which I find slightly misleading. Their website explicitly claims that they show NBA games (with a photo of LeBron even) but I showed up wanting to watch a Conference finals game (Spurs vs Thunder) and they had no idea what I was talking about. When they tried to put the game on for me, it turns out their Disney+/ESPN subscription didn't include the Conference finals. Sigh. To be fair to them, I went to a handful of other bars around downtown and no one was showing the game. C'est la vie in Concepción. Anyhow, onto the burger. 
 
 I was pleasantly surprised. This was a solid burger. The patty is by far the most densely packed one that I came across on my burger journey. Beyond being tasty, it was so filling that I ended up going home and sat in a food coma contemplating whether I could hang with roomies or had to call it a night and turn in. The bun was the closest to brioche that I have come across in Conce. The fried egg was cooked to perfection and they didn't overdo it with the BBQ sauce like its competitors (looking at you Premiere Burgers).
 
@@ -155,7 +158,7 @@ The fries were tremendous. Fat but crispy, salted to perfection. I found myself 
 
 - **Burger:** 8
 - **Fries:** 8
-- **Vibe:** 8
+- **Vibe:** 9
 - **Price:** ~$15.000
 
 So, despite their false advertising about being a sports bar (come clean and admit it's a soccer bar, bro), I have to commend Burger Bar on making a respectable burger. Bravo. 
@@ -175,14 +178,14 @@ This restaurant wasn't on my list of places to hit. I'd been here before but alw
 
 Mea culpa for ordering a cheddar burger with bacon and then finding it overly cheesy and salty. That being said, the bun was a pleasant surprise. It had these mysterious black (sesame?) seeds on it and it was toasted to perfection. The burger wasn't caramelized like Fatty Patty's (FP seems to be the only one that has studied hot griddle science) but it was solid. But as I've become accustomed to, the bacon wasn't cooked enough and lacked crispiness. 
 
-The fries were incredible. Perhaps the best fries I tried here in Conce BUT also the smallest portion of fries out of anyone. I'm reminded of the Rolling Stones' You Can't Always Get What You Want. 
+The fries were incredible. Perhaps the best fries I tried here in Conce BUT also the smallest portion of fries out of anyone.
 
 - **Burger:** 6
 - **Fries:** 9
 - **Vibe:** 9
 - **Price:** ~$17.000
 
-Love the service and vibe. It's definitely a place people come to hang out and shoot the shit. And shoutouts to giving burger customers a full bottle of ketchup/mustard (Heinz bottles but I'm pretty sure they refill it with a knockoff, that's the norm here). 
+Love the service and vibe. It's definitely a place people come to hang and shoot the breeze. And shoutouts to giving burger customers a full bottle of ketchup/mustard (Heinz bottles but I'm pretty sure they refill it with a knockoff, that's the norm here). 
 
 
 ## McDonalds
@@ -193,10 +196,10 @@ Love the service and vibe. It's definitely a place people come to hang out and s
   </figure>
 </div>
 
-Do I really need to describe a McDonalds hamburger to you? It does what you expect it to and nothing more. It has its place. 
+It does what you expect it to and nothing more. It has its place. 
 
 # Conclusion
 
-Final verdict: Fatty Patty is still my go-to, Burger Bar was the biggest surprise, Rich is the best Chilean-style burger, La Cocina had the best fries, and Tropi Burger made me question the meaning of “tropical.” 
+Final verdict: Fatty Patty is still my go-to, Burger Bar was the biggest surprise, Premier is the best Chilean-style burger, La Cocina had the best interior, and Tropi Burger made me question the meaning of “tropical.” 
 
 TL;DR: I'm sick of burgers. 
