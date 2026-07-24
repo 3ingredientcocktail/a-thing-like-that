@@ -44,7 +44,7 @@ I'll end with a testimonial from a coworker who went so far as to call Fatty Pat
   </figure>
 </div>
 
-**UPDATE (July 24, 2026): I've up the burger and fries rating from 8 to 9 after seeing consistent quality and no missing ingredients. It would seem FP has ironed out the kinks! That being said, they charge for sauces. I've started bringing my own bottle of ketchup with me.**
+**UPDATE (July 24, 2026): I increased the burger and fries rating from 8 to 9 after seeing consistent quality and no missing ingredients. It would seem FP has ironed out the kinks! That being said, they charge for sauces. I've started bringing my own bottle of ketchup with me.**
 
 ## Rich Hamburguesas
 📍 Colo Colo 325, Concepción
