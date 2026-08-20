@@ -470,3 +470,15 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.comic-image {
+  width: min(100%, 1100px);
+  margin: 2rem auto;
+}
+
+.comic-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
