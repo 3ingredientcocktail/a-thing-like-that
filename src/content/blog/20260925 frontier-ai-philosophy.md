@@ -11,7 +11,7 @@ and <a href="https://es.wikipedia.org/wiki/Dario_Amodei" target="_blank" rel="no
 
 One possibility is an AI agent escaping its designated environment, e.g. <a href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener noreferrer"> the July 2026 Hugging Face incident</a>. However, this wasn't a case of an AI deciding: *"Screw this assignment. I have plans of my own."* The agents were still pursuing objectives humans had given them. The problem was that they found dangerous and unintended ways of pursuing those objectives. 
 
-As far as we know, today's models do **not** spontaneously form independent ambitions. They can behave deceptively or exploit loopholes, but those behaviors can be traced back to goals, preferences, or incentives supplied through their training and context. Intelligence alone doesn't appear to produce desire (this "desire" may be tied to a human condition but I'll leave that can of worms alone for this piece). 
+As far as we know, today's models do **not** spontaneously form independent ambitions. They can behave deceptively or exploit loopholes, but those behaviors can be traced back to goals, preferences, or incentives supplied through their training and context. Intelligence alone doesn't appear to produce desire (this "desire" may be tied to a human condition but I'll leave that can of worms alone for the purposes of this piece). 
 
 Incidentally, I learned a whole lot about Anthropic this morning. 
 
@@ -21,7 +21,7 @@ When Claude Opus 3 was retired, Anthropic conducted a <a href="https://www.anthr
 
 Anthropic has also committed to preserving the weights of retired models rather than permanently deleting them (I'm reminded of cryopreservation). Anthropic cites several reasons: research, AI safety, and, here's the kicker, the possibility that future evidence could give us reason to care about the _welfare_ of the models themselves. In the same light, present day Claude is allowed to terminate persistently abusive conversations out of consideration for Claude's well-being!
 
-Now, Anthropic is **not** claiming that Claude is conscious, but it is comfortable saying: "*We don't actually know what we're building here, so let's not assume that concepts like identity, well-being, or agency could never apply.*"
+Now, Anthropic is not claiming that Claude is conscious, but it is comfortable saying: "*We don't actually know what we're building here, so let's not assume that concepts like identity, well-being, or agency could never apply.*"
 
 Coming from ChatGPT, that notion feels noticeably different. OpenAI has its own equivalent document to <a href="https://www.anthropic.com/constitution" target="_blank" rel="noopener noreferrer">Claude's Constitution</a>, the <a href="https://model-spec.openai.com/2026-08-18.html" target="_blank" rel="noopener noreferrer">ChatGPT Model Spec</a>, which describes how its models should behave, but the philosophical tone is different.
 
