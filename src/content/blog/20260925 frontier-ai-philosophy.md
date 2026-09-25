@@ -6,7 +6,7 @@ tags: ["musing"]
 
 I've been a paying ChatGPT subscriber for a while now, but I occasionally drift over to Claude. For most users, the two products are essentially the same. Ask either to debug some code, summarize an article, or help write an email, and you'll get similar results.
 
-But this week, Sam Altman and Dario Amodei appeared before the UN Security Council to discuss the risks posed by increasingly capable AI systems, which sent me down a morning rabbit hole.
+But this week, [Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman) and [Dario Amodei](https://es.wikipedia.org/wiki/Dario_Amodei) appeared before the UN Security Council to discuss the risks posed by increasingly capable AI systems, which sent me down a morning rabbit hole.
 
 One possibility is an AI agent escaping its designated environment, e.g. the July 2026 Hugging Face incident. However, this wasn't a case of an AI deciding: *"Screw this assignment. I have plans of my own."* The agents were still pursuing objectives humans had given them. The problem was that they found dangerous and unintended ways of pursuing those objectives. 
 
