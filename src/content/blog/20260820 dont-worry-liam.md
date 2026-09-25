@@ -7,3 +7,5 @@ tags: ["comic"]
 <figure class="comic-image">
   <img src="/images/comics/dont-worry-liam.png" alt="Comic titled Don't Worry, Liam" />
 </figure>
+
+_Art by GPT-5.6 Sol_
