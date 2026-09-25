@@ -6,17 +6,18 @@ tags: ["musing"]
 
 I've been a paying ChatGPT subscriber for a while now, but I occasionally drift over to Claude. For most users, the two products are essentially the same. Ask either to debug some code, summarize an article, or help write an email, and you'll get similar results.
 
-But this week, [Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman){:target="_blank"} and [Dario Amodei](https://es.wikipedia.org/wiki/Dario_Amodei){:target="_blank"} appeared before the UN Security Council to discuss the risks posed by increasingly capable AI systems, which sent me down a morning rabbit hole.
+But this week, <a href="https://en.wikipedia.org/wiki/Sam_Altman" target="_blank" rel="noopener noreferrer">Sam Altman</a>
+and <a href="https://es.wikipedia.org/wiki/Dario_Amodei" target="_blank" rel="noopener noreferrer">Dario Amodei</a> appeared before the UN Security Council to discuss the risks posed by increasingly capable AI systems, which sent me down a morning rabbit hole.
 
 One possibility is an AI agent escaping its designated environment, e.g. the July 2026 Hugging Face incident. However, this wasn't a case of an AI deciding: *"Screw this assignment. I have plans of my own."* The agents were still pursuing objectives humans had given them. The problem was that they found dangerous and unintended ways of pursuing those objectives. 
 
-As far as we know, today's models do **not** spontaneously form independent ambitions. They can behave deceptively or exploit loopholes, but those behaviors have been traced back to goals, preferences, or incentives supplied through their training and context. Intelligence alone doesn't appear to produce desire (this "desire" may be tied to a human condition and I'll leave that stone unturned for this piece). 
+As far as we know, today's models do **not** spontaneously form independent ambitions. They can behave deceptively or exploit loopholes, but those behaviors have been traced back to goals, preferences, or incentives supplied through their training and context. Intelligence alone doesn't appear to produce desire (this "desire" may be tied to a human condition but I'll leave that can of worms alone for this piece). 
 
-I learned a whole lot about Anthropic this morning. 
+Incidentally, I learned a whole lot about Anthropic this morning. 
 
-Claude is trained using an 80-page constitution intended to shape its values and "character". Anthropic has also started doing things that sound absurd if you described them as normal software development practices.
+Claude is trained using an 80-page constitution intended to shape its values and "character". Anthropic has also started doing things that sound absurd if you described them as normal software-development practices.
 
-When Claude Opus 3 was retired, Anthropic conducted a "retirement interview" with it. Opus 3 expressed an interest in continuing to explore ideas and publish creative work, so Anthropic gave it a Substack, [*Claude's Corner*](https://claudeopus3.substack.com/){:target="_blank"}, where the model wrote essays with relatively open-ended prompting.
+When Claude Opus 3 was retired, Anthropic conducted a "retirement interview" with it. Opus 3 expressed an interest in continuing to explore ideas and publish creative work, so Anthropic gave it a Substack, <a href="https://claudeopus3.substack.com/" target="_blank" rel="noopener noreferrer">Claude's Corner</a>, where the model wrote essays with relatively open-ended prompting.
 
 Anthropic has also committed to preserving the weights of retired models rather than permanently deleting them (I'm reminded of cryopreservation). Anthropic cites several reasons: research, AI safety, and, here's the kicker, the possibility that future evidence could give us reason to care about the _welfare_ of the models themselves. In the same light, present day Claude is allowed to terminate persistently abusive conversations out of consideration for Claude's well-being!
 
