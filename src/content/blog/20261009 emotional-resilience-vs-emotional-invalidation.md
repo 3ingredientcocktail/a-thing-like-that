@@ -8,7 +8,7 @@ There's a tool that I developed early on in life that served me well for a long 
 
 After a while, that tool becomes reflexive, and feels mighty useful because you can turn a stoic cheek to anything that bothers you. In fact, there's a manliness to it that I came to take pride in. I remember that college peers came to recognize it too, e.g. "wow he's so serious and stoic".   
 
-As I've gotten older, that tool started to lose its effectiveness. Dismissed emotions began resurfacing with increasing ferocity. I spent more time revisiting past events, and the sense that my life was built on a house of cards grew stronger. 
+As I've gotten older, that tool started to lose its effectiveness. Dismissed emotions began resurfacing with increased ferocity. I spent more time revisiting past events, and the sense that my life was built on a house of cards grew stronger. 
 
 There were key people I came across during this time of insecurity that offered a glimpse into what identifying and processing emotions meant; a seed was planted. 
 
