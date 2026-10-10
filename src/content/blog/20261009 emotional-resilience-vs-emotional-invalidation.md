@@ -12,7 +12,7 @@ As I got older, that tool started to lose its effectiveness. Dismissed emotions 
 
 There were people I came across during this time of insecurity who offered a glimpse into what identifying and processing emotions meant; a seed was planted. 
 
-Nowadays, I find myself increasingly trying to sit with uncomfortable emotions, but it took years to get to this point. In the early stages, I would recall a painful event from my life and feel a twinge of sadness for the way it had altered my trajectory, and then I would immediately stop myself from inhabiting the feeling. To truly sit with the feeling felt performative. I felt like a fraud. 
+Nowadays, I find myself increasingly trying to sit with uncomfortable emotions, but it took years to get to this point. In the early stages, I would recall a painful event from my life, feel a twinge of sadness for the way it had altered my trajectory, and then I would immediately stop myself from inhabiting the feeling. To truly sit with the feeling felt performative. I felt like a fraud. 
 
 _Why are you vying for attention? You've had privileges others can only dream about. Don't forget how lucky and privileged you are, you fucking dumbass. Things could be way worse. You know who talks about emotions? People who can't deal. Pussies._
 
