@@ -1,5 +1,5 @@
 ---
-title: "Emotional Resilience vs Emotional Invalidation"
+title: "Emotional Resilience vs. Emotional Invalidation"
 date: 2026-10-09
 tags: ["journal"]
 ---
