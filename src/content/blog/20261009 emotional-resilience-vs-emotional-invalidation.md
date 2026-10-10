@@ -6,7 +6,7 @@ tags: ["journal"]
 
 There's a tool I developed early on that served me well for a long time. Whenever something affected me, I would dismiss the emotion that was attached to it. 
 
-After a while, that tool became reflexive, and felt mighty useful because I could shrug off anything that bothered me. In fact, there was a manliness to it that I came to take pride in. I remember that college peers came to recognize it too, e.g. "Wow, he's so serious and stoic. Nothing fazes him."   
+After a while, that tool became reflexive, and felt mighty useful because I could shrug off anything that bothered me. In fact, there was a manliness to it that I came to take pride in. College peers came to recognize it too, e.g. "Wow, he's so serious and stoic. Nothing fazes him."   
 
 As I got older, that tool started to lose its effectiveness. Dismissed emotions began resurfacing with increased ferocity. I spent more time revisiting past events, and the sense that my internal life was built on a house of cards grew stronger. 
 
